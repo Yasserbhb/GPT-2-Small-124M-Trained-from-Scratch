@@ -58,7 +58,7 @@ We deliberately over-trained beyond the Chinchilla optimal point. At this small 
 
 ## Pre-training
 
-**Dataset:** [OpenWebText](https://huggingface.co/datasets/openwebtext) — an open-source recreation of the WebText corpus used to train GPT-2. ~8M web documents, ~9B tokens.
+**Dataset:** [OpenWebText](https://huggingface.co/datasets/Skylion007/openwebtext) — an open-source recreation of the WebText corpus used to train GPT-2. ~8M web documents, ~9B tokens.
 
 **Tokenizer:** tiktoken GPT-2 BPE encoding (50,257 tokens, padded to 50,304 for hardware efficiency).
 
@@ -198,3 +198,4 @@ streamlit run app.py
 - [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (Hoffmann et al., 2022) — Chinchilla scaling laws
 - [nanoGPT](https://github.com/karpathy/nanoGPT) (Karpathy) — Inspiration for this project
 - [OpenAssistant](https://huggingface.co/datasets/OpenAssistant/oasst1) — SFT dataset
+
